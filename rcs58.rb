@@ -10,7 +10,7 @@ class Rcs58 < Formula
   sha256 "701be8ea2e070f28626b3766f024791f3ec51249c483490bef70920d1fb52260"
 
   # depends_on "cmake" => :build
-  depends_on :x11 # if your formula requires any X11/XQuartz components
+  # depends_on :x11 # if your formula requires any X11/XQuartz components
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
